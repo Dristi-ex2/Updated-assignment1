@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: #444444;
+ } 
+ 
+.nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+}
+
+ a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+
+ }
+ .a1{
+    color: #10bc69;
+    font-size: 20px;
+
+ }
+
+ li {
+    display: inline-block;
+    margin-left: 80px; 
+    width: 5px; 
+}
+
+.nav-logo img{
+    width: 70px;
+    margin-left: 10vh;
+ }
+ 
+ .nav-links{
+    margin-right: 35vh;
+
+ }
+
+.btn{
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    background-color: #10bc69;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+
+ }
+
+/* ............home.................................... */
+
+.home-div2 img{
+    /* width: 550px;
+    height: 550px; */
+    /* margin-right: 120px; */
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+}
+.homepage{
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.home-div1{
+    /* margin-left: 40px; */
+    margin-top: 10%;
+    width: 100%;
+    padding: 48px;
+
+    
+}
+
+ .home-div1 h1{
+    color: #5f687b;
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 40px;
+    /* margin-left: 4%; */
+}
+
+.home-div1 p{
+    margin-top: 10px;
+    font-size: 18px;
+    /* margin-left: 25px; */
+    
+}
+
+.home-div1-btn{
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    background-color: #10bc69;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    /* margin-left: 4%; */
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* .....................about................................... */
+.about{
+    width: 70%;
+    margin-left: 15%;
+    padding: 20px;
+  
+
+}
+
+.about h1{
+text-align: center;   
+ font-family: 'Raleway', sans-serif;
+    color: #5f687b;
+    margin-top: 50px;
+
+}
+.about p{
+    font-size: 16px;
+    line-height: 25px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+
+
+
+/* ............................................... */
+
+.Services{
+    padding: 50px;
+    text-align: center;
+    background-color: #F5F5F5;
+    /* margin-top: 10%;    */
+
+}
+
+
+.Services h1{
+    color: #5f687b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+
+}
+.Services p{
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.Services-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.Services-info1 h2,.Services-info2 h2,.Services-info3 h2,.Services-info4 h2,.Services-info5 h2,.Services-info6 h2{
+    color: #5f687b;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+.Services-info1 img,.Services-info2 img,.Services-info3 img,.Services-info4 img,.Services-info5 img,.Services-info6 img{
+    width: 50px;
+}
+
+
+.Services-info1 ,.Services-info2 ,.Services-info3 ,.Services-info4 ,.Services-info5 ,.Services-info6 {
+background-color:  #ffffff;
+width: 100%;
+height: 100%;
+padding: 55px 20px;
+}
+
+.Services-info1 p,.Services-info2 p,.Services-info3 p,.Services-info4 p,.Services-info5 p,.Services-info6 p{
+    font-size: 14px;
+}
+/* ............................................ */
+.Portfolio{
+    padding: 50px;
+
+}
+
+.portfolio-p{
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+
+
+}
+.portfolio-h1{
+    color: #5f687b;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+
+}
+.Portfolio-logos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.Portfolio-logos1 img,.Portfolio-logos2 img,.Portfolio-logos3 img,.Portfolio-logos4 img,.Portfolio-logos5 img,.Portfolio-logos6 img,.Portfolio-logos7 img,.Portfolio-logos8 img,.Portfolio-logos9 img,.Portfolio-logos10 img,.Portfolio-logos11 img,.Portfolio-logos12 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ............................................. */
+
+.action{
+
+background-color:  #10bc69;
+padding: 50px;
+
+}
+
+.action h2{
+color: #ffffff;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+}
+
+.action p{
+    color: #ffffff;
+    margin-left: 10%;
+    font-size: 16px;
+    margin-top: 10px;
+
+
+}
+
+.action-btn{
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 41%;
+    color: #ffffff;
+    background-color: #10bc69;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+.action-span{
+    display: block;
+margin-left: 30%;
+}
+/* .......................................... */
+footer{
+    height: 100%;
+}
+.footer-div{
+    text-align: center;
+    font-size: 16px;
+}
+.footer-div img{
+    width: 7%;
+    margin-top: 40px;
+}
+.footer-div-p1{
+    margin-top: 40px;
+}
+.footer-div-p2{
+    margin-top: 5px;
+}
+.footer-div-p3{
+    margin-top: 20px;
+}
+.footer-div-p4{
+    margin-top: 5px;
+}
+ hr{
+    margin-top: 20px;
+    
+}
+.Copyright{
+    margin-top: 10px;
+}
+
+
+/* ............................................... */
+@media (max-width: 1024px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    .homepage {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-div1 {
+        width: 100%;
+    }
+    .home-div2 img {
+        max-width: 90%;
+        height: auto;
+    }
+    .Services-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Portfolio-logos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links ul {
+        flex-direction: column;
+    }
+    .Services-info,
+    .Portfolio-logos {
+        grid-template-columns: 1fr;
+    }
+    .action-btn {
+        width: 100%;
+    }
+}
